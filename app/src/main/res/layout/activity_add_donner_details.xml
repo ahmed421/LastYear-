@@ -1,0 +1,113 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.Patient.AddDonnerDetailsActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="329dp"
+        android:layout_height="282dp"
+        android:layout_gravity="center"
+        android:src="@drawable/home_logo" />
+    <TextView
+        android:text="بحث عن متبرع"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView4"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:fontFamily="@font/jf_flat"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+
+    <TextView
+
+        android:text="فصيلة الدم"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView4"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:fontFamily="@font/jf_flat"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <Spinner
+
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="35dp"
+        android:id="@+id/spinnerblood"
+        android:entries="@array/blood_arrays"
+        />
+    <TextView
+        android:text="تحديد الموقع"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView4"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:fontFamily="@font/jf_flat"
+        android:layout_marginTop="15dp"
+
+        />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/btn_picker"
+        android:background="@drawable/ic_location"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:hint="المكان"
+        android:id="@+id/edtlocation"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:src="@drawable/ic_location"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/btnsearchdonner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btncustom"
+        android:text="حفظ "
+        android:fontFamily="@font/jf_flat"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
+</ScrollView>

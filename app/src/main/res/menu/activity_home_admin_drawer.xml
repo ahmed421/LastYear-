@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+
+    >
+
+    <group android:checkableBehavior="single"
+
+        >
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+
+            android:title="الحساب الشخصي"
+
+
+            />
+        <item
+            android:id="@+id/nav_bloodrequest"
+            android:icon="@drawable/ic_bloodrequest"
+            android:title="طلبات الدم" />
+        <item
+            android:id="@+id/nav_donner"
+            android:icon="@drawable/ic_profile"
+            android:title="المتبرعون المتاحون" />
+        <item
+            android:id="@+id/patient"
+            android:icon="@drawable/ic_profile"
+            android:title="المرضي" />
+        <item
+            android:id="@+id/nav_signpout"
+            android:icon="@drawable/ic_signout"
+            android:title="تسجيل الخروج" />
+    </group>
+
+
+
+</menu>

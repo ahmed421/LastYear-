@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "356459268003",
+    "firebase_url": "https://android-project-dfdd3.firebaseio.com",
+    "project_id": "android-project-dfdd3",
+    "storage_bucket": "android-project-dfdd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356459268003:android:d7f2ae5375858300",
+        "android_client_info": {
+          "package_name": "com.example.bankbloodproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356459268003-5sfkc8hj0d6gdfsdmchs7th4cq92ckr9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bankbloodproject",
+            "certificate_hash": "4b36b9aa3b8354416a00d048c4bd0213a4ea8d30"
+          }
+        },
+        {
+          "client_id": "356459268003-u605bjrijpddfob5232lv7gqqj3m2sur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs4bJG-YQKGMdcxWeLEGDt5RjPMCiq5TA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356459268003-u605bjrijpddfob5232lv7gqqj3m2sur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/White"
+    tools:context=".Home.Patient.DonnerListActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:background="@color/White">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            android:layout_weight="50"
+            android:id="@+id/user_list_recycler_view">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+        <Button
+
+            android:id="@+id/btnmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="7dp"
+            android:background="@drawable/btncustom"
+            android:text="عرض المتبرعين المتاحين ع الخريطه"
+            android:fontFamily="@font/jf_flat"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="50"-->
+            <!--android:id="@+id/map_container">-->
+
+            <!--<com.google.android.maps.MapView-->
+                <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:id="@+id/user_list_map"-->
+
+                <!--/>-->
+        <!--</LinearLayout>-->
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

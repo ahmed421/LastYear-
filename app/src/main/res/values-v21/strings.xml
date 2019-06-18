@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="etEmail">ادخل  البريد الالكتروني</string>
+    <string name="etPassword">ادخل الرقم السري</string>
+    <string name="Login">تسجيل الدخول</string>
+    <string name="tvRegister">انشاء حساب جديد</string>
+    <string name="etpaas2">تأكيد الرقم السري</string>
+    <string name="Register">حفظ</string>
+    <string name="patient">طلب دم</string>
+    <string name="dooner">متبرع بالدم</string>
+    <string name="name_dooner">اسم المتبرع</string>
+    <string name="age_dooner">العمر</string>
+    <string name="gender_dooner">الجنس</string>
+    <string name="blood_group">فصيلة الدم</string>
+    <string name="address">العنوان</string>
+    <string name="city">المدينه</string>
+    <string name="phone">رقم التليفون</string>
+</resources>
